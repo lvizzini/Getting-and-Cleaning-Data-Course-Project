@@ -23,7 +23,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 1. Select rows from feature dataset wihtin '-mean' and '-std' string and rename column names into 'mean' and 'std'.
 2. Bind by rows training, test and subject data frame
-3. Extract data by selected columns from step iii
+3. Extract data by selected columns from step 1
 4. Create a data frame named data with subject, y and x mesures
 5. Create tidy data frame that consists of the average (mean) of each variable for each subject and each activity.
 
