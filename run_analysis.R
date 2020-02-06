@@ -42,7 +42,7 @@ d_x <- rbind(x_tr, x_ts)
 d_y <- rbind(y_tr, y_ts)
 d_s <- rbind(s_tr, s_ts)
 
-#iv. Extract data by selected columns from step C
+#iv. Extract data by selected columns from step ii
 d_x <-d_x[c]
 
 #v. Create a data frame named data with subject, y and x mesures
